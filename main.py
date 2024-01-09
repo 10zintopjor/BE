@@ -8,8 +8,8 @@ app = FastAPI()
 
 # CORS middleware
 origins = [
-    "http://backend",  # Adjust this to the actual URL of your React app
-    "http://backend:3000",  # If your React app is running on a different port
+    "http://frontend",  # Adjust this to the actual URL of your React app
+    "http://frontend:3000",  # If your React app is running on a different port
 ]
 
 app.add_middleware(
